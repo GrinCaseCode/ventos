@@ -560,6 +560,9 @@
         border-bottom: 1px #3E4657 solid;
         display: block;
     }
+    .menu > li > a:hover {
+        background-color: transparent;
+    }
     .btn-catalog, .menu > li > a {
         height: auto;
         justify-content: space-between;

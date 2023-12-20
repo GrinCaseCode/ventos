@@ -1204,3 +1204,6 @@ text-transform: uppercase;
 	margin-top: 25px;
 	justify-content: center;
 }
+.modal-block {
+	display: none;
+}

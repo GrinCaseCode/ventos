@@ -1,0 +1,824 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1600px) {
+    .header {
+        font-size: 12px;
+    }
+    .logo img {
+        width: 210px;
+    }
+    .logo span {
+        right: 19px;
+        font-size: 11px;
+    }
+    .phones-main {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .btn-call {
+        width: 35px;
+        height: 35px;
+        margin-left: 17px;
+    }
+    .btn-call img {
+        max-width: 21px;
+    }
+    .list-social li {
+        margin-right: 11px;
+    }
+    .list-social a {
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
+    }
+    .header-search {
+        margin-right: 23px;
+    }
+    .btn-search, 
+    .open-search {
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+    }
+    .header-search input {
+        height: 32px;
+        padding: 0 15px;
+        font-size: 12px;
+    }
+    .btn-search img, 
+    .open-search img {
+        max-width: 17px;
+    }
+    .open-search::after {
+        font-size: 18px;
+    }
+    .header-search.active form {
+        width: 405px;
+    }
+    .header-top {
+        padding: 15px 0;
+    }
+    body {
+        font-size: 14px;
+    }
+    .btn-catalog, .menu > li > a {
+        font-size: 14px;
+        height: 50px;
+        letter-spacing: 0.4px;
+    }
+    .btn-catalog {
+        width: 205px;
+    }
+    .item-billbord__image img {
+        max-width: 990px;
+    }
+    .item-billbord .item-billbord__left {
+        padding-top: 60px;
+    }
+    .title-big {
+        font-size: 41px;
+        margin-bottom: 20px;
+    }
+    .item-billbord .title-big {
+        max-width: 540px;
+    }
+    .list-page li {
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+    .item-billbord .btn-main {
+        height: 60px;
+        margin-top: 35px;
+    }
+    .item-billbord__image {
+        margin-bottom: -23px;
+    }
+    .slider-billbord:not(.slick-initialized) > li, 
+    .slider-billbord .slick-slide {
+        padding-bottom: 23px;
+    }
+    .controls-slider_billbord {
+        bottom: 54px;
+    }
+    .controls-slider .slick-dots {
+        margin: 0 40px;
+    }
+    .title-section {
+        padding-top: 30px;
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .services .title-section {
+        margin-bottom: 30px;
+    }
+    .row {
+        margin: 0 -10px;
+    }
+    .row > div {
+        padding: 0 10px;
+    }
+    .row_services > div {
+        margin-bottom: 20px;
+    }
+    .item-service__image {
+        height: 170px;
+    }
+    .item-service__content {
+        padding: 12px 20px;
+        padding-bottom: 20px;
+        min-height: 180px;
+    }
+    .title-small {
+        font-size: 18px;
+    }
+    .item-service .title-small {
+        margin-bottom: 5px;
+    }
+    .item-service {
+        font-size: 12px;
+    }
+    .btn-arrow {
+        width: 22px;
+        height: 22px;
+        font-size: 18px;
+        bottom: 8px;
+        right: 9px;
+    }
+    .title-page {
+        font-size: 26px;
+    }
+    .title-page {
+        font-size: 24px;
+    }
+    .about .title-page {
+        margin-bottom: 22px;
+        max-width: 585px;
+    }
+    .about p {
+        margin-bottom: 15px;
+        max-width: 568px;
+    }
+    .slider-about__item {
+        height: 357px;
+    }
+    .item-billbord__background {
+        right: calc((100vw - 1060px) / 2);
+    }
+    .about__right::before {
+        left: 272px;
+        top: -58px;
+        bottom: -25px;
+    }
+    .about .title-section {
+        padding-top: 22px;
+        margin-bottom: 43px;
+    }
+    .item-number__value {
+        font-size: 38px;
+        padding-bottom: 9px;
+        margin-bottom: 18px;
+    }
+    .item-number p {
+        max-width: 314px;
+    }
+    .consultation-block__title {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .consultation-block__descr {
+        font-size: 15px;
+        margin-bottom: 11px;
+        max-width: 510px;
+    }
+    .item-form input {
+        height: 50px;
+        font-size: 13px;
+    }
+    .item-form {
+        margin-bottom: 33px;
+    }
+    .consultation-block .btn-main {
+        height: 56px;
+    }
+    .btn-main {
+        height: 50px;
+        padding: 0px 35px;
+        font-size: 14px;
+    }
+    .checkbox {
+        margin-top: 20px;
+    }
+    .consultation-block {
+        padding-left: 45px;
+    }
+    .consultation-block form {
+        max-width: 495px;
+    }
+    #map {
+        height: 520px;
+    }
+    .contacts-block {
+        width: 424px;
+        height: 487px;
+        padding: 19px 22px;
+        font-size: 13px;
+    }
+    .footer__location, .location {
+        margin-bottom: 15px;
+    }
+    .row_location {
+        padding-top: 15px;
+        padding-bottom: 31px;
+    }
+    .footer {
+        padding-top: 35px;
+        font-size: 12px;
+    }
+    .footer .logo span {
+        width: 146px;
+        font-size: 10px;
+        right: 4px;
+        bottom: -6px;
+    }
+    .footer__nav_big {
+        font-size: 14px;
+    }
+    .item-number__value sup {
+        font-size: 16px;
+    }
+    .footer__contacts {
+        padding-left: 40px;
+    }
+    .contacts-block .btn-main {
+        width: 220px;
+    }
+    .wrapper {
+        padding-top: 119px;
+    }
+    .btn-catalog::after {
+        left: 52px;
+    }
+    .modal-wrap {
+        width: 370px;
+    }
+    .title-form {
+        font-size: 20px;
+        margin-bottom: 11px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .wrapper {
+        padding-top: 110px;
+    }
+    .phones-main {
+        font-size: 12px;
+        margin-left: 8px;
+    }
+    .header {
+        font-size: 11px;
+    }
+    .logo img {
+        width: 170px;
+    }
+    .logo span {
+        right: 10px;
+        font-size: 10px;
+        letter-spacing: 0;
+    }
+    .btn-catalog, .menu > li > a {
+        font-size: 13px;
+        height: 45px;
+        letter-spacing: 0.2px;
+    }
+    .btn-catalog {
+        width: 170px;
+    }
+    .title-big {
+        font-size: 33px;
+        margin-bottom: 17px;
+    }
+    .item-billbord__image img {
+        max-width: 900px;
+    }
+    .title-section {
+        padding-top: 25px;
+        font-size: 22px;
+    }
+    .title-small {
+        font-size: 16px;
+    }
+    .slider-about__item {
+        height: 315px;
+    }
+    .consultation-block {
+        padding-left: 30px;
+    }
+    .consultation-block__title {
+        font-size: 24px;
+        margin-bottom: 11px;
+    }
+    .item-form {
+        margin-bottom: 15px;
+    }
+    .consultation-block__descr {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .footer__contacts {
+        padding-left: 0;
+    }
+    .footer .logo span {
+        width: 118px;
+        font-size: 8px;
+        right: 3px;
+        bottom: -6px;
+    }
+    .footer {
+        padding-top: 31px;
+        font-size: 11px;
+    }
+    .footer__nav_big li {
+        margin-bottom: 25px;
+    }
+    .footer__nav_big li {
+        margin-bottom: 25px;
+    }
+    .contacts-block {
+        width: 400px;
+    }    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .wrapper {
+        padding-top: 65px;
+    }
+    .header-bottom,
+    .header__wrapper .list-social,
+    .header__wrapper .phones-main,
+    .header__wrapper .header__item {
+        display: none;
+    }
+    .header.fixed {
+        box-shadow: 0 0 10px #ccc;
+    }
+    .item-billbord__image {
+        top: 0;
+        right: -42px;
+        position: absolute;
+    }
+    .item-billbord__right {
+        position: static;
+    }
+    .item-billbord .container {
+        position: relative;
+    }
+    .item-billbord__image img {
+        max-width: 345px;
+    }
+    .title-big {
+        font-size: 27px;
+        margin-bottom: 13px;
+    }
+    .item-billbord .title-big {
+        max-width: 375px;
+    }
+    .list-page li {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .item-billbord__background {
+        right: 0;
+    }
+    .item-billbord {
+        padding-bottom: 25px;
+        min-height: 450px;
+    }
+    .controls-slider_billbord {
+        bottom: 40px;
+    }
+    .item-billbord .btn-main {
+        height: 55px;
+        margin-top: 30px;
+    }
+    .title-section span {
+        padding: 0;
+        border: none;
+    }
+    .title-section {
+        font-size: 20px;
+        padding: 20px 0;
+        margin-top: 0;
+    }
+    .about .title-section {
+        margin-bottom: 25px;
+    }
+    .about p {
+        max-width: 100%;
+    }
+    .about .about__left {
+        padding-bottom: 25px;
+        padding-right: 0;
+    }
+    .about .title-page {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .about__right::before {
+        left: 260px;
+        top: -40px;
+        bottom: -17px;
+    }
+    .about__right {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .item-number {
+        margin-top: 20px;
+    }
+    .consultation-block {
+        padding: 30px;
+    }
+    .consultation-block__image {
+        margin: -30px;
+        margin-top: 20px;
+        height: 300px;
+    }
+    .consultation-block__image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        font-family: 'object-fit: cover;';
+        max-width: initial;
+        object-position: right;
+    }
+    .contacts-block {
+        padding-bottom: 25px;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin-bottom: 15px;
+        height: auto;
+    }
+    .row_location {
+        padding-top: 0;
+        padding-bottom: 25px;
+    }
+    .contacts-block .title-small {
+        margin-bottom: 10px;
+    }
+    #map {
+        height: 400px;
+    }
+    .footer__nav_big {
+        margin: 0;
+    }
+    .footer {
+        padding-top: 30px;
+        font-size: 12px;
+    }
+    .footer .row_location {
+        padding-bottom: 15px;
+    }
+    .footer__contacts {
+        padding-top: 10px;
+    }
+    .footer__nav li {
+        margin-bottom: 10px;
+    }
+    .footer__nav_big li {
+        margin-bottom: 25px;
+    }    
+    .footer .logo {
+        margin-bottom: 25px;
+    }
+    .footer-bottom .row > div {
+        padding-bottom: 10px;
+    }
+    .footer-bottom .row > div:nth-child(even) {
+        text-align: right;
+    }
+    .consultation {
+        padding-bottom: 40px;
+    }
+    .sandwich {
+        display: flex;
+    }
+    .header-search {
+        margin-right: 0;
+    }
+    .header-search {
+        position: static;
+    }
+    .header-search.active form {
+        width: 100%;
+    }
+    .header-search form {
+        top: 100%;
+        padding-bottom: 0px;
+        right: 0;
+        background-color: #fff;
+    }
+    .header-search input {
+        border: none;
+        height: 45px;
+        padding: 0 15px;
+        font-size: 14px;
+        border-radius: 0;
+        border-top: 1px solid #D9D9D9;
+        border-bottom: 1px solid #D9D9D9;
+    }
+    .btn-search {
+        top: 4px;
+        right: 10px;
+    }
+    .open-search::after {
+        top: 1px;
+    }
+    .header-bottom {
+        padding-bottom: 30px;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        max-height: calc(100vh - 65px);
+        overflow: auto;
+        position: absolute;
+    }
+    .header-bottom .header__wrapper {
+        display: block;
+    }
+    .menu {
+        display: block;
+    }
+    .menu > li > a {
+        padding: 10px 0;
+        color: #3E4657;
+        border-bottom: 1px #3E4657 solid;
+        display: block;
+    }
+    .btn-catalog, .menu > li > a {
+        height: auto;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .menu > li > a::before,
+    .menu > li > a::after {
+        display: none;
+    }
+    .btn-catalog {
+        width: 100%;
+    }
+    .btn-catalog {
+        padding: 15px 25px;
+        justify-content: flex-start;
+    }
+    .catalog-wrap::before {
+        display: none;
+    }
+    .header-bottom .header__contacts {
+        margin-top: 20px;
+    }
+    .menu-overlay {
+		top: 65px;
+		left: 0;
+		right: 0;
+		bottom: 0px;
+		background-color: rgba(0, 0, 0, 0.5);
+		position: fixed;
+		z-index: -1;
+	}
+    .btn-catalog::after {
+        left: 24px;
+    }
+    .dropdown-catalog {
+        padding: 15px;
+        position: relative;
+        top: 0;
+        width: 100%;
+        background-color: transparent;
+    }
+    .dropdown-catalog li a {
+        color: #3E4657;
+    }
+    .dropdown-catalog li a:hover {
+        border-color: #3E4657;
+    }
+    .header {
+        font-size: 13px;
+    }
+    .phones-main {
+        font-size: 14px;
+        margin-left: 11px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .item-billbord__image img {
+        max-width: 250px;
+    }
+    .item-billbord__image {
+        right: -90px;
+    }
+    .title-big {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .item-billbord .list-page {
+        margin-top: 30px;
+    }
+    .item-billbord .title-big {
+        max-width: 290px;
+        min-height: 92px;
+    }
+    .item-billbord .item-billbord__left {
+        padding-top: 40px;
+    }
+    .item-billbord {
+        min-height: 430px;
+    }
+    .slider-billbord:not(.slick-initialized) > li, .slider-billbord .slick-slide {
+        padding: 0;
+    }
+    .row {
+        margin: 0 -5px;
+    }
+    .row > div {
+        padding: 0 5px;
+    }
+    .row_services > div {
+        margin-bottom: 10px;
+    }
+    .item-service__image {
+        height: 135px;
+    }
+    .item-service__content {
+        padding: 10px;
+        padding-bottom: 25px;
+    }
+    .item-service .title-small {
+        font-size: 14px;
+    }
+    .title-page {
+        font-size: 18px;
+    }
+    .slider-about__item {
+        height: 270px;
+    }
+    .about__right::before {
+        left: 227px;
+        top: -30px;
+        bottom: -3px;
+    }
+    .about .about__left {
+        padding-bottom: 20px;
+    }
+    .item-number__value {
+        font-size: 30px;
+        padding-bottom: 5px;
+        margin-bottom: 13px;
+    }
+    .item-number__value sup {
+        font-size: 14px;
+    }
+    .about {
+        padding-bottom: 30px;
+    }
+    .consultation-block__image {
+        display: none;
+    }
+    .file-upload {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .controls-slider_billbord {
+        bottom: 15px;
+    }
+    .about__right {
+        margin-top: 10px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.item-billbord__image {
+    display: none;
+}
+.title-section {
+    padding-bottom: 15px;
+}
+.item-service li {
+    padding-left: 10px;
+}
+.row {
+    margin: 0 -3px;
+}
+.row > div {
+    padding: 0 3px;
+}
+.item-service {
+    font-size: 11px;
+    line-height: 150%;
+}
+.item-service .title-small {
+    font-size: 13px;
+}
+.item-service__image {
+    height: 105px;
+}
+.item-service__content {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.btn-arrow {
+    width: 18px;
+    height: 18px;
+    font-size: 15px;
+    bottom: 5px;
+}
+.about .title-section {
+    margin-bottom: 20px;
+}
+.slick-arrow {
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+}
+.controls-slider .slick-dots {
+    margin: 0 30px;
+}
+.about__right::before {
+    left: 200px;
+}
+.consultation-block {
+    padding: 25px 20px;
+}
+.contacts-block {
+    padding: 20px 15px;
+    padding-bottom: 25px;
+    margin: 0 -15px;
+    max-width: initial;
+    width: initial;
+}
+.item-billbord .title-big {
+    max-width: 347px;
+    min-height: initial;
+}
+.services .title-section {
+    margin-bottom: 22px;
+}
+.about .title-section {
+    padding-top: 14px;
+}
+.modal-wrap {
+    padding: 25px 20px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .menu-overlay,
+.hidden-desktop {
+    display: none !important;
+}
+.header-bottom {
+    display: block !important;
+}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1600px) {
+	.container {
+    max-width: 1470px;
+}
+}

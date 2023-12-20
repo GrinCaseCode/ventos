@@ -565,6 +565,7 @@
         justify-content: space-between;
         text-align: left;
     }
+    .menu > li:last-child > a::after,
     .menu > li > a::before,
     .menu > li > a::after {
         display: none;

@@ -106,18 +106,16 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-arrow-right"></i><div/>',
 	});
 
-	$('.slider-about').slick({
+	$('.slider-company').slick({
 		arrows: true,
 		dots: true,
 		infinite: true,
 		touchThreshold: 1000,
-		autoplay: true,
-		autoplaySpeed: 4000,
 		speed: 1000,
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		appendArrows: $(".controls-slider_about"),
-		appendDots: $(".controls-slider_about"),
+		appendArrows: $(".controls-slider_company"),
+		appendDots: $(".controls-slider_company"),
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-arrow-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-arrow-right"></i><div/>',
 	});

@@ -118,6 +118,14 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		appendDots: $(".controls-slider_company"),
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-arrow-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-arrow-right"></i><div/>',
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					adaptiveHeight: true
+				}
+			}
+			]
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");

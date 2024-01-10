@@ -88,6 +88,61 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(".menu-overlay").fadeOut(200);
 	});
 
+		 /*range slider*/
+
+		 $(function() {
+			var $range = $(".range-catalog_price .range-catalog__input"),
+			$from = $(".range-catalog_price .control-input__from"),
+			$to = $(".range-catalog_price .control-input__to"),
+			min = 17800,
+			max = 170000;
+			$range.ionRangeSlider({
+				type: "double",
+				min: min,
+				max: max,
+				from: 17800,
+				to: 120000,
+				prettify_enabled: true,
+				onChange: function(data) {
+					updateValues()
+				}
+			});
+			$range = $range.data("ionRangeSlider");
+			var updateValues = function() {
+				var res = $range.result;
+				$from.val(res.from, true);
+				$to.val(res.to,true)
+			};
+			$from.on("focus", function() {
+				this.value = this.value;
+				this.focus();
+				this.selectionStart = this.value.length
+			}).on("input", function() {
+				$range.update({
+					from: this.value
+				})
+			}).on("blur", updateValues);
+			$to.on("focus", function() {
+				this.value = this.value;
+				this.focus();
+				this.selectionStart = this.value.length
+			}).on("input", function() {
+				$range.update({
+					to: this.value
+				})
+			}).on("blur", updateValues)
+		});
+
+		$(".item-sidebar__head").click(function() {
+			$(this).parent().toggleClass("active");
+			$(this).siblings(".item-sidebar__content").slideToggle(200);
+		});
+	
+		$(".btn-main_filter").click(function(e) {
+			e.preventDefault();
+			$(".sidebar-catalog").slideToggle(200);
+		});
+
 	//слайдер
 
 	$('.slider-billbord').slick({
@@ -128,6 +183,50 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			]
 	});
 
+	$('.slider-for').slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		asNavFor: '.slider-nav',
+		touchThreshold: 1000,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+	});
+
+	$('.slider-nav').slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		vertical: true,
+		verticalSwiping: true,
+		asNavFor: '.slider-for',
+		touchThreshold: 1000,
+		focusOnSelect: true,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				vertical: false,
+				verticalSwiping: false,
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 3,
+				vertical: false,
+				verticalSwiping: false,
+			}
+		}
+		]
+	});
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 	{
@@ -140,11 +239,51 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		}
 	}
 
+	$('.tabs li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parent().parent().parent().find(".tab-pane").fadeOut(0);
+		var selectTab2 = $(this).attr("href");
+		$(selectTab2).fadeIn(200);
+	});
+
 		/*input file*/
 		$("input[type='file']").change(function(){
 			var filename_text = $(this).parent().siblings(".name-upload");
 			var filename = $(this).val().replace(/.*\\/, "");
 			filename_text.html(filename);
+		});
+
+		jQuery('.quantity').each(function() {
+			var spinner = jQuery(this),
+			input = spinner.find('input[type="number"]'),
+			btnUp = spinner.find('.quantity-up'),
+			btnDown = spinner.find('.quantity-down'),
+			min = input.attr('min'),
+			max = input.attr('max');
+	
+			btnUp.click(function() {
+				var oldValue = parseFloat(input.val());
+				if (oldValue >= max) {
+					var newVal = oldValue;
+				} else {
+					var newVal = oldValue + 1;
+				}
+				spinner.find("input").val(newVal);
+				spinner.find("input").trigger("change");
+			});
+	
+			btnDown.click(function() {
+				var oldValue = parseFloat(input.val());
+				if (oldValue <= min) {
+					var newVal = oldValue;
+				} else {
+					var newVal = oldValue - 1;
+				}
+				spinner.find("input").val(newVal);
+				spinner.find("input").trigger("change");
+			});
 		});
 
 

@@ -20,7 +20,7 @@
         margin-left: 17px;
     }
     .btn-call img {
-        max-width: 21px;
+        max-width: 21px; 
     }
     .list-social li {
         margin-right: 11px;
@@ -413,6 +413,165 @@
     .price-main {
         font-size: 18px;
     }
+    .page-categories.page-categories__services .item-service__image {
+        height: 200px;
+    }
+    .article-content h1 {
+        font-size: 27px;
+        margin-bottom: 12px;
+    }
+    .article-content h2 {
+        font-size: 17px;
+    }
+    .article-content blockquote {
+        padding: 22px 20px;
+    }
+    .article-content blockquote::after, .article-content blockquote::before {
+        font-size: 85px;
+    }
+    .article-content blockquote::before {
+        top: -40px;
+        left: 10px;
+    }
+    .article-content blockquote::after {
+        right: 10px;
+        bottom: -78px;
+    }
+    .article-content {
+        line-height: 150%;
+    }
+    .title-block {
+        font-size: 28px;
+    }
+    .conusltation-main {
+        padding: 36px 40px;
+        padding-bottom: 28px;
+    }
+    .conusltation-main form {
+        margin-left: 0;
+        padding-top: 4px;
+    }
+    .conusltation-main .btn-main {
+        height: 56px;
+        margin-top: 6px;
+    }
+    .article-content > .btn-main {
+        min-width: 220px;
+        height: 56px;
+        margin-top: 20px;
+    }
+    .item-news__image {
+        height: 190px;
+        margin-bottom: 11px;
+    }
+    .item-news__date {
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+    .item-news__title {
+        font-size: 17px;
+    }
+    .row_news > div {
+        margin-bottom: 37px;
+    }
+    .page-portfolio .pager,
+    .page-news .pager {
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+    .page-portfolio .prev.page-numbers, 
+    .page-portfolio .next.page-numbers,
+    .page-news .prev.page-numbers, 
+    .page-news .next.page-numbers {
+        top: 23px;
+    }
+    .page-about h2 {
+        font-size: 21px;
+        margin-bottom: 12px;
+    }
+    .documents .title-section {
+        margin-bottom: 30px;
+    }
+    .slider-documents .slick-slide {
+        padding: 0 10px;
+    }
+    .slider-documents {
+        margin: 0 -10px;
+    }
+    .item-document {
+        height: 385px;
+    }
+    .documents .controls-slider {
+        margin-top: 39px;
+    }
+    .page-service,
+    .page-about {
+        font-size: 13px;
+    }
+    .page-contacts #map {
+        height: 420px;
+    }
+    .item-portfolio__image {
+        height: 210px;
+    }
+    .item-portfolio__title {
+        font-size: 17px;
+    }
+    .row_portfolio > div {
+        margin-bottom: 26px;
+    }
+    .feature-card {
+        margin-bottom: 15px;
+    }
+    .feature-card sup {
+        font-size: 9px;
+    }
+    .right-card-portfolio .btn-main {
+        height: 55px;
+        min-width: 240px;
+    }
+    .slider-photos .slick-slide {
+        padding: 0 10px;
+    }
+    .slider-photos {
+        margin: 0 -10px;
+    }
+    .slider-photos__item {
+        height: 175px;
+    }
+    .page-recap {
+        padding-top: 75px;
+        padding-bottom: 100px;
+    }
+    .recap-block__value {
+        font-size: 162px;
+        margin-bottom: -29px;
+    }
+    .recap-block {
+        padding: 18px 74px;
+        padding-bottom: 55px;
+        max-width: 520px;
+    }
+    .recap-block__title {
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+    .recap-block__descr {
+        font-size: 18px;
+        margin-bottom: 48px;
+    }
+    .recap-block .btn-main {
+        height: 56px;
+        padding: 0 35px;
+    }
+    .recap-block__name {
+        font-size: 42px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    .page-recap_thanks .recap-block__descr {
+        margin-bottom: 65px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -526,6 +685,61 @@
     .price-card {
         font-size: 23px;
         margin-bottom: 8px;
+    }
+    .page-categories.page-categories__services .item-service__image {
+        height: 160px;
+    }
+    .conusltation-main {
+        padding: 20px;
+    }
+    .title-block {
+        font-size: 25px;
+    }
+    .conusltation-main .btn-main {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .conusltation-main .checkbox {
+        margin-right: 0;
+        margin-top: 15px;
+    }
+    .article-content h1 {
+        font-size: 24px;
+    }
+    .item-news__image {
+        height: 170px;
+    }
+    .item-news__title {
+        font-size: 15px;
+    }
+    .row_news > div {
+        margin-bottom: 28px;
+    }
+    .slider-photos .slick-slide,
+    .slider-documents .slick-slide {
+        padding: 0 5px;
+    }
+    .slider-photos,
+    .slider-documents {
+        margin: 0 -5px;
+    }
+    .item-document {
+        height: 305px;
+    }
+    .page-contacts {
+        padding-bottom: 35px;
+    }
+    .item-portfolio__image {
+        height: 165px;
+    }
+    .item-portfolio__title {
+        font-size: 15px;
+    }
+    .feature-card {
+        margin-bottom: 10px;
+    }
+    .slider-photos__item {
+        height: 135px;
     }
 }
 
@@ -848,6 +1062,60 @@
     .line-sorting {
         margin: 0;
     }
+    .article-content img {
+        margin: 20px 0;
+    }
+    .conusltation-main form {
+        padding: 0;
+    }
+    .conusltation-main .title-block {
+        margin-bottom: 20px;
+    }
+    .conusltation-main .checkbox {
+        justify-content: center;
+    }
+    .conusltation-main {
+        padding: 30px;
+    }
+    .page-service .conusltation-main {
+        margin-bottom: 25px;
+    }
+    .article-content > .btn-main {
+        margin-top: 10px;
+    }
+    .page-about h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .page-about img {
+        margin: 20px 0;
+    }
+    .page-about .row {
+        margin: 0;
+    }
+    .page-about .row:nth-child(odd) {
+        flex-direction: column-reverse;
+    }
+    .item-document {
+        height: 321px;
+    }
+    .page-contacts .contacts-block {
+        margin: 0;
+        margin-bottom: 20px;
+        min-height: initial;
+    }
+    .page-contacts #map {
+        height: 320px;
+    }
+    .image-portfolio {
+        margin-bottom: 20px;
+    }
+    .feature-card {
+        margin-bottom: 15px;
+    }
+    .slider-photos__item {
+        height: 150px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -1018,6 +1286,88 @@
     .tabs a {
         min-width: initial;
     }
+    .page-categories.page-categories__services .item-service__image {
+        height: 140px;
+    }
+    .conusltation-main .item-form {
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .conusltation-main {
+        padding: 25px 20px;
+    }
+    .conusltation-main .btn-main {
+        margin-top: 10px;
+    }
+    .conusltation-main .checkbox {
+        margin-top: 22px;
+    }
+    .article-content > .btn-main {
+        min-width: 240px;
+    }
+    .article-content h1 {
+        font-size: 22px;
+    }
+    .title-block {
+        font-size: 22px;
+    }
+    .conusltation-main .title-block {
+        margin-bottom: 10px;
+    }
+    .page-news {
+        padding-top: 6px;
+    }
+    .page-news {
+        padding-bottom: 45px;
+    }
+    .page-about .item-number {
+        margin-top: 10px;
+    }
+    .item-document {
+        height: 313px;
+        max-width: 221px;
+    }
+    .documents .controls-slider {
+        margin-top: 32px;
+    }
+    .documents {
+        padding-bottom: 40px;
+    }
+    .page-service,
+    .page-about {
+        font-size: 14px;
+    }
+    .item-portfolio__image {
+        height: 132px;
+    }
+    .row_portfolio > div {
+        margin-bottom: 15px;
+    }
+    .recap-block {
+        padding: 15px 50px;
+        padding-bottom: 45px;
+        max-width: 425px;
+    }
+    .recap-block__value {
+        font-size: 135px;
+        margin-bottom: -20px;
+    }
+    .recap-block__title {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .recap-block__descr {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+    .page-recap_thanks .recap-block__descr {
+        margin-bottom: 45px;
+    }
+    .recap-block__name {
+        font-size: 35px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -1145,6 +1495,52 @@
 }
 .slider-for__item {
     height: 245px;
+}
+.page-categories.page-categories__services .item-service__image {
+    height: 115px;
+}
+.item-news__image {
+    height: 145px;
+}
+.item-news__date {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.item-news__title {
+    font-size: 14px;
+}
+.slider-documents .slick-slide {
+    padding: 0 3px;
+}
+.slider-documents {
+    margin: 0 -3px;
+}
+.item-document {
+    height: 232px;
+    max-width: 171px;
+}
+.item-portfolio__title {
+    font-size: 13px;
+}
+.item-portfolio__image {
+    height: 110px;
+}
+.slider-photos__item {
+    height: 115px;
+}
+.page-card-portfolio {
+    padding-bottom: 35px;
+}
+.recap-block {
+    padding: 15px 30px;
+    padding-bottom: 45px;
+}
+.recap-block__value {
+    font-size: 125px;
+    margin-bottom: -10px;
+}
+.recap-block__descr {
+    font-size: 14px;
 }
 }
 

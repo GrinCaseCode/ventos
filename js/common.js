@@ -227,6 +227,63 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		]
 	});
 
+	$('.slider-documents').slick({
+		arrows: true,
+		dots: true,
+		infinite: true,
+		touchThreshold: 1000,
+		speed: 1000,
+		slidesToShow: 4,
+		slidesToScroll: 2,
+		appendArrows: $(".controls-slider_documents"),
+		appendDots: $(".controls-slider_documents"),
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-arrow-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-arrow-right"></i><div/>',
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 3,
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2,
+				}
+			}
+			]
+	});
+
+	$('.slider-photos').slick({
+		arrows: true,
+		dots: true,
+		infinite: true,
+		touchThreshold: 1000,
+		speed: 1000,
+		slidesToShow: 4,
+		slidesToScroll: 2,
+		appendArrows: $(".controls-slider_photos"),
+		appendDots: $(".controls-slider_photos"),
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-arrow-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-arrow-right"></i><div/>',
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 3,
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2,
+				}
+			}
+			]
+	});
+
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 	{
